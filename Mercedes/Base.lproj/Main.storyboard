@@ -122,15 +122,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFd-zV-9EF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFd-zV-9EF">
                                 <rect key="frame" x="16" y="493" width="382" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.91529711790000001" green="0.22974170999999999" blue="0.19428713989999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QV-AY-NAo">
-                                <rect key="frame" x="16" y="780" width="382" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QV-AY-NAo">
+                                <rect key="frame" x="16" y="776" width="382" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="See on maps"/>
                                 <connections>
                                     <action selector="seeMapLocation:" destination="6pP-nt-xvE" eventType="touchUpInside" id="hh6-K8-2Rb"/>
@@ -142,7 +142,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="Ogy-bo-TpG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -160,10 +160,13 @@
                             <constraint firstItem="IrD-jS-V0r" firstAttribute="top" secondItem="jbO-rz-duS" secondAttribute="bottom" constant="32" id="E60-xY-COe"/>
                             <constraint firstItem="IrD-jS-V0r" firstAttribute="leading" secondItem="0Zg-nr-xaJ" secondAttribute="leading" constant="16" id="Ejt-UZ-hDt"/>
                             <constraint firstItem="0Zg-nr-xaJ" firstAttribute="trailing" secondItem="Wco-2x-7cV" secondAttribute="trailing" constant="16" id="KW0-Gh-E2K"/>
+                            <constraint firstItem="7QV-AY-NAo" firstAttribute="trailing" secondItem="kFd-zV-9EF" secondAttribute="trailing" id="NDh-Tr-zHU"/>
                             <constraint firstItem="jbO-rz-duS" firstAttribute="top" secondItem="0Zg-nr-xaJ" secondAttribute="top" constant="16" id="Pvc-kU-REN"/>
                             <constraint firstItem="7QV-AY-NAo" firstAttribute="leading" secondItem="0Zg-nr-xaJ" secondAttribute="leading" constant="16" id="S6j-K8-f3w"/>
+                            <constraint firstItem="vmX-RU-Qzl" firstAttribute="top" secondItem="7QV-AY-NAo" secondAttribute="bottom" constant="16" id="UhP-Ok-dUV"/>
                             <constraint firstItem="vmX-RU-Qzl" firstAttribute="leading" secondItem="0Zg-nr-xaJ" secondAttribute="leading" id="VJg-Xk-epq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="IrD-jS-V0r" secondAttribute="trailing" constant="16" id="bvN-eE-3Dv"/>
+                            <constraint firstItem="7QV-AY-NAo" firstAttribute="leading" secondItem="kFd-zV-9EF" secondAttribute="leading" id="dFJ-9w-OMa"/>
                             <constraint firstItem="0Zg-nr-xaJ" firstAttribute="trailing" secondItem="7QV-AY-NAo" secondAttribute="trailing" constant="16" id="fRy-PR-pVB"/>
                             <constraint firstItem="Wco-2x-7cV" firstAttribute="top" secondItem="IrD-jS-V0r" secondAttribute="bottom" constant="16" id="qmt-xU-jdK"/>
                             <constraint firstItem="0Zg-nr-xaJ" firstAttribute="trailing" secondItem="jbO-rz-duS" secondAttribute="trailing" constant="16" id="xOf-be-xVA"/>
@@ -171,6 +174,8 @@
                         <viewLayoutGuide key="safeArea" id="0Zg-nr-xaJ"/>
                     </view>
                     <connections>
+                        <outlet property="btnCall" destination="vmX-RU-Qzl" id="Sti-6R-Nl6"/>
+                        <outlet property="btnMaps" destination="7QV-AY-NAo" id="A70-hx-j8c"/>
                         <outlet property="ivDealership" destination="jbO-rz-duS" id="ksb-MH-yaZ"/>
                         <outlet property="lblLocation" destination="Wco-2x-7cV" id="3nB-gd-oPh"/>
                         <outlet property="lblName" destination="IrD-jS-V0r" id="hE3-GA-UhF"/>
