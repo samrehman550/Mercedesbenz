@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36604490A76554B600576B14 /* Pods_Mercedes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE145106FF6078CEF175F3E7 /* Pods_Mercedes.framework */; };
+		412A3EC8226E640900510EA6 /* DealershipDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412A3EC7226E640900510EA6 /* DealershipDetailsViewController.swift */; };
 		412E8A80226E4509004BAA8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E8A7F226E4509004BAA8D /* AppDelegate.swift */; };
-		412E8A82226E4509004BAA8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E8A81226E4509004BAA8D /* ViewController.swift */; };
 		412E8A85226E4509004BAA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412E8A83226E4509004BAA8D /* Main.storyboard */; };
 		412E8A87226E450B004BAA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412E8A86226E450B004BAA8D /* Assets.xcassets */; };
 		412E8A8A226E450B004BAA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412E8A88226E450B004BAA8D /* LaunchScreen.storyboard */; };
 		412E8A95226E450B004BAA8D /* MercedesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E8A94226E450B004BAA8D /* MercedesTests.swift */; };
 		412E8AA0226E450B004BAA8D /* MercedesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E8A9F226E450B004BAA8D /* MercedesUITests.swift */; };
+		412E8AAE226E4823004BAA8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 412E8AAD226E4822004BAA8D /* GoogleService-Info.plist */; };
+		412E8AB0226E4A67004BAA8D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E8AAF226E4A67004BAA8D /* TableViewCell.swift */; };
+		412E8AB2226E4AD2004BAA8D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E8AB1226E4AD2004BAA8D /* TableViewController.swift */; };
+		412E8AB6226E5404004BAA8D /* Dealership.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E8AB5226E5404004BAA8D /* Dealership.swift */; };
+		80C55D9BB5313A053305A0E2 /* Pods_MercedesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A54B01DBCAB0D534ED1DE17 /* Pods_MercedesUITests.framework */; };
+		A8B7189EFC2B272035D20032 /* Pods_MercedesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264DD51F7C0A7D8F5D099B0B /* Pods_MercedesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264DD51F7C0A7D8F5D099B0B /* Pods_MercedesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercedesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A54B01DBCAB0D534ED1DE17 /* Pods_MercedesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercedesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		412A3EC7226E640900510EA6 /* DealershipDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipDetailsViewController.swift; sourceTree = "<group>"; };
 		412E8A7C226E4509004BAA8D /* Mercedes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mercedes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		412E8A7F226E4509004BAA8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		412E8A81226E4509004BAA8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		412E8A84226E4509004BAA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		412E8A86226E450B004BAA8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412E8A89226E450B004BAA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		412E8A9B226E450B004BAA8D /* MercedesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercedesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		412E8A9F226E450B004BAA8D /* MercedesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesUITests.swift; sourceTree = "<group>"; };
 		412E8AA1226E450B004BAA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412E8AAD226E4822004BAA8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		412E8AAF226E4A67004BAA8D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		412E8AB1226E4AD2004BAA8D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		412E8AB5226E5404004BAA8D /* Dealership.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealership.swift; sourceTree = "<group>"; };
+		5D49E982E3E7E2EBDFA6A99C /* Pods-MercedesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercedesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MercedesTests/Pods-MercedesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F06DA576B239AC53162E6F4 /* Pods-MercedesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercedesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MercedesUITests/Pods-MercedesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2C477A6144282C9666A838 /* Pods-MercedesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercedesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MercedesUITests/Pods-MercedesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE145106FF6078CEF175F3E7 /* Pods_Mercedes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercedes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E209CB64625EB4D3E16ADD9A /* Pods-Mercedes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes/Pods-Mercedes.release.xcconfig"; sourceTree = "<group>"; };
+		E63595C929C4C7D11E5B9F4B /* Pods-Mercedes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercedes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercedes/Pods-Mercedes.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF33B388C8969102EF774FB /* Pods-MercedesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercedesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MercedesTests/Pods-MercedesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36604490A76554B600576B14 /* Pods_Mercedes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B7189EFC2B272035D20032 /* Pods_MercedesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C55D9BB5313A053305A0E2 /* Pods_MercedesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D8F244F278E12D6F999CCE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE145106FF6078CEF175F3E7 /* Pods_Mercedes.framework */,
+				264DD51F7C0A7D8F5D099B0B /* Pods_MercedesTests.framework */,
+				3A54B01DBCAB0D534ED1DE17 /* Pods_MercedesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		412E8A73226E4509004BAA8D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				412E8A93226E450B004BAA8D /* MercedesTests */,
 				412E8A9E226E450B004BAA8D /* MercedesUITests */,
 				412E8A7D226E4509004BAA8D /* Products */,
+				8882AE49DAA757668509CA12 /* Pods */,
+				3D8F244F278E12D6F999CCE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +132,16 @@
 		412E8A7E226E4509004BAA8D /* Mercedes */ = {
 			isa = PBXGroup;
 			children = (
+				412E8AB5226E5404004BAA8D /* Dealership.swift */,
+				412E8AAD226E4822004BAA8D /* GoogleService-Info.plist */,
 				412E8A7F226E4509004BAA8D /* AppDelegate.swift */,
-				412E8A81226E4509004BAA8D /* ViewController.swift */,
 				412E8A83226E4509004BAA8D /* Main.storyboard */,
 				412E8A86226E450B004BAA8D /* Assets.xcassets */,
 				412E8A88226E450B004BAA8D /* LaunchScreen.storyboard */,
 				412E8A8B226E450B004BAA8D /* Info.plist */,
+				412E8AAF226E4A67004BAA8D /* TableViewCell.swift */,
+				412E8AB1226E4AD2004BAA8D /* TableViewController.swift */,
+				412A3EC7226E640900510EA6 /* DealershipDetailsViewController.swift */,
 			);
 			path = Mercedes;
 			sourceTree = "<group>";
@@ -125,6 +164,19 @@
 			path = MercedesUITests;
 			sourceTree = "<group>";
 		};
+		8882AE49DAA757668509CA12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E63595C929C4C7D11E5B9F4B /* Pods-Mercedes.debug.xcconfig */,
+				E209CB64625EB4D3E16ADD9A /* Pods-Mercedes.release.xcconfig */,
+				5D49E982E3E7E2EBDFA6A99C /* Pods-MercedesTests.debug.xcconfig */,
+				EFF33B388C8969102EF774FB /* Pods-MercedesTests.release.xcconfig */,
+				8F06DA576B239AC53162E6F4 /* Pods-MercedesUITests.debug.xcconfig */,
+				9D2C477A6144282C9666A838 /* Pods-MercedesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 412E8AA4226E450B004BAA8D /* Build configuration list for PBXNativeTarget "Mercedes" */;
 			buildPhases = (
+				AE5F0699D627A53E9B1FF1BB /* [CP] Check Pods Manifest.lock */,
 				412E8A78226E4509004BAA8D /* Sources */,
 				412E8A79226E4509004BAA8D /* Frameworks */,
 				412E8A7A226E4509004BAA8D /* Resources */,
+				5F9EF6C6746DA237E89FA0AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 412E8AA7226E450B004BAA8D /* Build configuration list for PBXNativeTarget "MercedesTests" */;
 			buildPhases = (
+				AB4B24E7E2304148115C17BD /* [CP] Check Pods Manifest.lock */,
 				412E8A8C226E450B004BAA8D /* Sources */,
 				412E8A8D226E450B004BAA8D /* Frameworks */,
 				412E8A8E226E450B004BAA8D /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 412E8AAA226E450B004BAA8D /* Build configuration list for PBXNativeTarget "MercedesUITests" */;
 			buildPhases = (
+				576C3F07AB6F6EBEB28228A5 /* [CP] Check Pods Manifest.lock */,
 				412E8A97226E450B004BAA8D /* Sources */,
 				412E8A98226E450B004BAA8D /* Frameworks */,
 				412E8A99226E450B004BAA8D /* Resources */,
@@ -230,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				412E8A8A226E450B004BAA8D /* LaunchScreen.storyboard in Resources */,
+				412E8AAE226E4823004BAA8D /* GoogleService-Info.plist in Resources */,
 				412E8A87226E450B004BAA8D /* Assets.xcassets in Resources */,
 				412E8A85226E4509004BAA8D /* Main.storyboard in Resources */,
 			);
@@ -251,13 +308,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		576C3F07AB6F6EBEB28228A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercedesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9EF6C6746DA237E89FA0AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes/Pods-Mercedes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercedes/Pods-Mercedes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4B24E7E2304148115C17BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercedesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE5F0699D627A53E9B1FF1BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mercedes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		412E8A78226E4509004BAA8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412E8A82226E4509004BAA8D /* ViewController.swift in Sources */,
+				412A3EC8226E640900510EA6 /* DealershipDetailsViewController.swift in Sources */,
+				412E8AB6226E5404004BAA8D /* Dealership.swift in Sources */,
+				412E8AB0226E4A67004BAA8D /* TableViewCell.swift in Sources */,
 				412E8A80226E4509004BAA8D /* AppDelegate.swift in Sources */,
+				412E8AB2226E4AD2004BAA8D /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +603,7 @@
 		};
 		412E8AA5226E450B004BAA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63595C929C4C7D11E5B9F4B /* Pods-Mercedes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +622,7 @@
 		};
 		412E8AA6226E450B004BAA8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E209CB64625EB4D3E16ADD9A /* Pods-Mercedes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +641,7 @@
 		};
 		412E8AA8226E450B004BAA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D49E982E3E7E2EBDFA6A99C /* Pods-MercedesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +663,7 @@
 		};
 		412E8AA9226E450B004BAA8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF33B388C8969102EF774FB /* Pods-MercedesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +685,7 @@
 		};
 		412E8AAB226E450B004BAA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F06DA576B239AC53162E6F4 /* Pods-MercedesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +706,7 @@
 		};
 		412E8AAC226E450B004BAA8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2C477A6144282C9666A838 /* Pods-MercedesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
