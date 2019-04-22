@@ -52,8 +52,9 @@ class TableViewController: UITableViewController {
             
             for snap in snapshot.documents {
              
-                let dealership = Dealership(name: snap.data()["name"] as! String, location: snap.data()["location"] as! String, opening_times: snap.data()["opening_times"] as! String, image_url: snap.data()["image_url"] as! String, maps_link: snap.data()["maps_link"] as! String, phone: snap.data()["phone"] as! String, id: snap.data()["name"] as! String)
+                if let dealership = Dealership(name: snap.data()["name"] as! String, location: snap.data()["location"] as! String, opening_times: snap.data()["opening_times"] as! String, image_url: snap.data()["image_url"] as! String, maps_link: snap.data()["maps_link"] as! String, phone: snap.data()["phone"] as! String, id: snap.data()["name"] as! String){
                 self.dealerships.append(dealership)
+                }
             }
             
             //self.dealerships = results
@@ -72,14 +73,13 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 150
+        return 60
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
         
-       cell.lblLocation.text = dealerships[indexPath.row].location
         cell.lblName.text = dealerships[indexPath.row].name
-        cell.lblTime.text = "Opens from: \(dealerships[indexPath.row].opening_times)"
+        cell.lblPhone.text = "Opens from: \(dealerships[indexPath.row].phone)"
         cell.ivImage.sd_setImage(with: Foundation.URL(string: dealerships[indexPath.row].image_url), placeholderImage: #imageLiteral(resourceName: "placeholder"))
     
 
