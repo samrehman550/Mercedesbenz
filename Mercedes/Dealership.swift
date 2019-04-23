@@ -17,6 +17,8 @@ class Dealership{
     var phone: String = ""
     var id: String = ""
     
+    
+    
 }
 //
 //extension Dealership{
