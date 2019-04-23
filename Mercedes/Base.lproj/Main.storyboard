@@ -43,7 +43,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t85-fe-yIK">
-                                            <rect key="frame" x="81" y="28" width="297" height="21"/>
+                                            <rect key="frame" x="81" y="28" width="305" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="523-5N-cHn"/>
                                             </constraints>
@@ -57,7 +57,7 @@
                                         <constraint firstItem="png-O4-oIx" firstAttribute="leading" secondItem="fOz-P0-lg8" secondAttribute="leading" constant="20" symbolic="YES" id="HAW-Gf-96z"/>
                                         <constraint firstItem="3FG-ZA-pfm" firstAttribute="leading" secondItem="png-O4-oIx" secondAttribute="trailing" constant="16" id="VD1-2M-xkK"/>
                                         <constraint firstItem="t85-fe-yIK" firstAttribute="leading" secondItem="png-O4-oIx" secondAttribute="trailing" constant="16" id="WwW-kV-6FK"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="t85-fe-yIK" secondAttribute="trailing" constant="16" id="dbc-8e-ri9"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="t85-fe-yIK" secondAttribute="trailing" constant="8" id="dbc-8e-ri9"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="3FG-ZA-pfm" secondAttribute="trailing" constant="8" id="o2V-o2-pue"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="t85-fe-yIK" secondAttribute="bottom" id="okn-Nl-Hhe"/>
                                         <constraint firstItem="3FG-ZA-pfm" firstAttribute="top" secondItem="fOz-P0-lg8" secondAttribute="topMargin" id="qiK-bn-bzm"/>

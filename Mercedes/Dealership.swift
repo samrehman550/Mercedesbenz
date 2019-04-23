@@ -8,26 +8,15 @@
 
 import Foundation
 
-struct Dealership{
-    var name:String
-    var location: String
-    var opening_times: String
-    var image_url: String
-    var maps_link: String
-    var phone: String
-    var id: String
+class Dealership{
+    var name:String = ""
+    var location: String = ""
+    var opening_times: String = ""
+    var image_url: String = ""
+    var maps_link: String = ""
+    var phone: String = ""
+    var id: String = ""
     
-    var dictionary: [String: Any] {
-        return [
-            "name": name,
-            "location": location,
-            "opening_times": opening_times,
-            "image_url": image_url,
-            "maps_link": maps_link,
-            "phone": phone,
-            "id": id
-        ]
-    }
 }
 //
 //extension Dealership{

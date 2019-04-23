@@ -51,10 +51,17 @@ class TableViewController: UITableViewController {
             }
             
             for snap in snapshot.documents {
-             
-                if let dealership = Dealership(name: snap.data()["name"] as! String, location: snap.data()["location"] as! String, opening_times: snap.data()["opening_times"] as! String, image_url: snap.data()["image_url"] as! String, maps_link: snap.data()["maps_link"] as! String, phone: snap.data()["phone"] as! String, id: snap.data()["name"] as! String){
-                self.dealerships.append(dealership)
-                }
+                
+                let dealership = Dealership()
+                dealership.image_url = snap.data()["image_url"] as! String? ?? ""
+                dealership.name = snap.data()["name"] as! String? ?? ""
+                dealership.opening_times = snap.data()["opening_times"] as! String? ?? ""
+                dealership.image_url = snap.data()["image_url"] as! String? ?? ""
+                dealership.maps_link =  snap.data()["maps_link"] as! String? ?? ""
+                dealership.location = snap.data()["location"] as! String? ?? ""
+                dealership.phone = snap.data()["phone"] as! String? ?? ""
+                
+                  self.dealerships.append(dealership)
             }
             
             //self.dealerships = results
@@ -79,7 +86,7 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
         
         cell.lblName.text = dealerships[indexPath.row].name
-        cell.lblPhone.text = "Opens from: \(dealerships[indexPath.row].phone)"
+        cell.lblPhone.text = "Phone: \(dealerships[indexPath.row].phone)"
         cell.ivImage.sd_setImage(with: Foundation.URL(string: dealerships[indexPath.row].image_url), placeholderImage: #imageLiteral(resourceName: "placeholder"))
     
 
